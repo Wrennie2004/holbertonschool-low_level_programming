@@ -3,6 +3,7 @@
 /**
  * main - Entry point
  *
+ * printf
  * Return: Always 0 (Success)
  */
 int main(void)
