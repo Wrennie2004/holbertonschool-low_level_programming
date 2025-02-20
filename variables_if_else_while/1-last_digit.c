@@ -20,8 +20,12 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	
 	last_digit = n % 10;
+	if (n < 0 && n != 0)
+	{
+		last_digit = -last_digit;
+	}
 
-	printf("last digit of %d is %d and is", n, last_digit);
+	printf("last digit of %d is %d and is ", n, last_digit);
 
 	if (n > 5)
 	{
@@ -33,7 +37,7 @@ int main(void)
 	}
 	else
 	{
-	printf("less than 6 and not 0\n");
+		printf("less than 6 and not 0\n");
 	}
 	return (0);
 }
