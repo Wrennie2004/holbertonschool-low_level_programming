@@ -20,7 +20,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	
 	last_digit = n % 10;
-	if (n < 0 && n != 0)
+	if (n < 0 && last_digit != 0)
 	{
 		last_digit = -last_digit;
 	}
