@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * Write a function that checks for lowercase character.
- * Return : Always return 0
+ * Write a function that prints the sign of a number.
+ *
+ *int print_sign(int n) - prints a sign depending on the value of n
  */
 
 int print_sign(int n)
