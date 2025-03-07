@@ -22,11 +22,16 @@ int _atoi(char *s)
 			}
 			count++;
 		}
-
+		
 		while(s[count] >= '0' && s[count] <= '9')
 		{
 			result = result * 10 + (s[count] - '0');
 			count++;
+		}
+
+		while(s[count] >= 'a' && s[count] <= 'z' && s[count] >= 'A' && s[count] <= 'Z')
+		{
+			return(0);
 		}
 	}
 	return(result * sign);
