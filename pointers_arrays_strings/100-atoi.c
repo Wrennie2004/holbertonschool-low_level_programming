@@ -29,10 +29,7 @@ int _atoi(char *s)
 			count++;
 		}
 
-		while(s[count] >= 'a' && s[count] <= 'z' || s[count] >= 'A' && s[count] <= 'Z')
-		{
-			//something here so it ends and doesnt print after letters...
-		}
+		while(s[count] >= 'a' && s[count] <= 'z' && s[count] >= 'A' && s[count] <= 'Z')
 	}
 	return(result * sign);
 }
