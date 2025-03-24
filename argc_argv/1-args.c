@@ -3,7 +3,7 @@
 
 int main(int argc, char *argv[])
 {
-	int num = argc;
+	int num = argc - 1;
 	int i = 0;
 
 	while(argv[0][i] != '\0')
@@ -14,7 +14,6 @@ int main(int argc, char *argv[])
 	if(num == 0)
 	{
 		putchar('0');
-		putchar('\n');
 	}
 	else
 	{
