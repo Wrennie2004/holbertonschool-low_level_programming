@@ -1,5 +1,14 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ *
+ *Description: prints alphabet
+ *
+ * Return: Always 0 (Success)
+ */
+
+
 int main(void)
 {
 	char c;
