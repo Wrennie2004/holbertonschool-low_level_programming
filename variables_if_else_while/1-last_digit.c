@@ -1,12 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- *main -> This is a program is acquire last digit
+/**
+ *main - Entry Point
+ *
+ *Description: This is a program is acquire last digit
  *then print an outcome based on the digit
  *
- *
- * Return - 0 Always Success
+ * Return: Always 0 (Success)
 */
 int main(void)
 {
@@ -23,12 +24,10 @@ int main(void)
 	{
 		printf("greater than 5\n");
 	}
-
 	else if (last_digit == 0)
 	{
 		printf("0\n");
 	}
-
 	else if (last_digit < 6 && last_digit != 0)
 	{
 		printf("less than 6 and not 0\n");
