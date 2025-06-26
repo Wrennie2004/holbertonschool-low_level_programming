@@ -6,7 +6,7 @@ int main(void)
 
 	c = 'a';
 
-	while (c <= 'Z')
+	while (c <= 'z')
 	{
 		putchar(c);
 		c = c + 1;
