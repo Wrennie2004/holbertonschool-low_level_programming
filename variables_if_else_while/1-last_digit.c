@@ -1,9 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/*
+ *main -> This is a program is acquire last digit
+ *then print an outcome based on the digit
+ *
+ *
+ * Return - 0 Always Success
+*/
 int main(void)
 {
 	int n;
@@ -13,7 +17,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	last_digit = n % 10;
 
-	printf("Last digit of %d is %d and is ",n, last_digit);
+	printf("Last digit of %d is %d and is ", n, last_digit);
 
 	if (last_digit > 5)
 	{
@@ -28,7 +32,7 @@ int main(void)
 	else if (last_digit < 6 && last_digit != 0)
 	{
 		printf("less than 6 and not 0\n");
-	}	
+	}
 
 
 	return (0);
