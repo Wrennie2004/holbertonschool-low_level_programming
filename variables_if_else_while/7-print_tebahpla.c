@@ -2,13 +2,13 @@
 
 int main(void)
 {
-	int i;
-	i  = 48;
+	char c;
+	c = 'z';
 
-	while (i <= 57)
+	while(c >= 'a')
 	{
-		putchar(i);
-		i = i + 1;
+		putchar(c);
+		c = c - 1;
 	}
 	putchar('\n');
 
