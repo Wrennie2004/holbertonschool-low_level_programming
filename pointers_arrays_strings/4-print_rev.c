@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * print_rev - Prints a string in reverse followed by a newline
  * @s: Pointer to the string to be printed
@@ -7,7 +8,6 @@
  *              reverse order using the `_putchar` function, followed
  *              by a newline.
  */
-#include "main.h"
 
 void print_rev(char *s)
 {
