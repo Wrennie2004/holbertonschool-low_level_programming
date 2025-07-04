@@ -33,7 +33,7 @@ int _atoi(char *s)
 			end_num = 1;
 		}
 
-		n++;
+		count++;
 	}
 	return (result);
 }
