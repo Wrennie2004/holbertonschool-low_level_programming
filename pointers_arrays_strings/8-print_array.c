@@ -17,6 +17,5 @@ void print_array(int *a, int n)
 		count = count + 1;
 	}
 
-	printf('\n');
+	printf("\n");
 }
-
