@@ -1,3 +1,11 @@
+/**
+ * puts2 - Prints every other character of a string, starting with the first
+ * @str: Pointer to the string to be printed
+ *
+ * Description: This function prints every even-indexed character of the string
+ *              pointed to by `str` using the `_putchar` function,
+ *              followed by a newline.
+ */
 #include "main.h"
 
 void puts2(char *str)
