@@ -23,12 +23,11 @@ char *_strncat(char *dest, char *src, int n)
 
 	while (scount < n && src[scount] != '\0')
 	{
-
-			dest[dcount] = src[scount];
-			dcount = dcount + 1;
-			scount  = scount + 1;
+		dest[dcount] = src[scount];
+		dcount = dcount + 1;
+		scount  = scount + 1;
 	}
 
 	dest[dcount] = '\0';
-	return dest;
+	return (dest);
 }
